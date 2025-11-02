@@ -1,0 +1,21 @@
+# BossBar Settings File
+# Using TOML format
+
+[bossbars]
+  [bossbars.example]
+  title = "<rainbow>Example Boss Bar</rainbow>"
+  color = "RED"
+  overlay = "PROGRESS" # PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+  progress = 1.0
+  visible = true
+  # Players who should see this boss bar
+  # Leave empty for all players, or specify player names
+  players = []
+  
+  [bossbars.welcome]
+  title = "<gradient:#FFFF00:#FFAA00>Welcome to the Server!</gradient>"
+  color = "GREEN"
+  overlay = "NOTCHED_20"
+  progress = 0.75
+  visible = true
+  players = []

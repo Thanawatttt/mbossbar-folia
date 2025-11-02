@@ -1,0 +1,10 @@
+name: BossBar
+version: '${project.version}'
+main: com.example.bossbar.BossBarPlugin
+api-version: '1.21'
+loader: com.example.bossbar.BossBarPluginLoader
+folia-supported: true
+permissions:
+  bossbar.admin:
+    description: Allows reloading bossbar config
+    default: op
